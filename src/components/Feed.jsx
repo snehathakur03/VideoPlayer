@@ -24,7 +24,7 @@ const Feed = () => {
       sx={{mt:1.5, color:"#fff"}}>Copyright 2022 Meedia</Typography>
     </Box>
 
-    <Box sx={{xs:{paddingLeft:"1rem"}, md:{paddingLeft:"2rem"}, overflowY:"auto",height:"90vh", flex:"2"}}>
+    <Box sx={{paddingLeft:"2rem", overflowY:"auto",height:"90vh", flex:"2"}}>
       <Typography variant="h4" fontWeight="bold" mt={1} mb={1} sx={{color:"#fff"}}>   {selectedCategory}
         <span style={{color:"#ff9101"}}> Videos</span>
       </Typography>

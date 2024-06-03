@@ -26,8 +26,8 @@ const SearchBar = () => {
         pl: 2,
         boxShadow: 'none',
         display: 'flex',
-        alignItems: 'center', // Center vertically
-        overflow: 'hidden' // To prevent icon overflow
+        alignItems: 'center', 
+        overflow: 'hidden' 
       }}
     >
       <input
@@ -36,10 +36,10 @@ const SearchBar = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         style={{
-          flex: '1', // Take remaining space
-          border: 'none', // Remove default input border
-          outline: 'none', // Remove outline on focus
-          paddingLeft: '10px' // Add some left padding
+          flex: '1',
+          border: 'none', 
+          outline: 'none',
+          paddingLeft: '10px' 
         }}
       />
       <IconButton type='submit' sx={{ p: '10px', color: 'red' }} aria-label='search'>
